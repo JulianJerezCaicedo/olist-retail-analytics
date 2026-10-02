@@ -1,0 +1,115 @@
+{
+  "name": "Olist Retail Analytics",
+  "dataColors": [
+    "#1B4F72",
+    "#2E86AB",
+    "#5DADE2",
+    "#A9CCE3",
+    "#F39C12",
+    "#E74C3C",
+    "#27AE60",
+    "#8E44AD",
+    "#7F8C8D",
+    "#D5DBDB"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#1B1B1B",
+  "tableAccent": "#1B4F72",
+  "good": "#27AE60",
+  "neutral": "#F39C12",
+  "bad": "#E74C3C",
+  "maximum": "#1B4F72",
+  "center": "#F4F6F6",
+  "minimum": "#E74C3C",
+  "null": "#BDC3C7",
+
+  "textClasses": {
+    "callout": {
+      "fontSize": 32,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1B4F72"
+    },
+    "title": {
+      "fontSize": 13,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1B1B1B"
+    },
+    "header": {
+      "fontSize": 12,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1B1B1B"
+    },
+    "label": {
+      "fontSize": 10,
+      "fontFace": "Segoe UI",
+      "color": "#5D6D7E"
+    }
+  },
+
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#E5E7E9" } },
+            "radius": 6
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": true,
+            "preset": "0"
+          }
+        ],
+        "visualHeader": [
+          {
+            "show": true,
+            "background": { "solid": { "color": "#FFFFFF" } },
+            "border": false
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontColor": { "solid": { "color": "#1B1B1B" } },
+            "fontSize": 13,
+            "bold": true,
+            "alignment": "left"
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": { "solid": { "color": "#1B4F72" } },
+            "fontSize": 32,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": { "solid": { "color": "#5D6D7E" } },
+            "fontSize": 11
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "background": [
+          { "color": { "solid": { "color": "#F4F6F6" } } }
+        ]
+      }
+    }
+  }
+}
