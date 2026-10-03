@@ -1,3 +1,5 @@
+**🇬🇧 English** | [🇪🇸 Español](README_ES.md)
+
 # Olist Retail Analytics — Customer Behavior & Retention Intelligence
 
 ## Business Context

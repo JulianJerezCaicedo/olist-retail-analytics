@@ -1,3 +1,5 @@
+[🇬🇧 English](README.md) | **🇪🇸 Español**
+
 # Olist Retail Analytics — Inteligencia de Comportamiento y Retención de Clientes
 
 ## Contexto del Negocio
